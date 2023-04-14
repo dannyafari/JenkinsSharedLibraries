@@ -12,4 +12,7 @@ def call(String stageName){
      {
        sh "mvn clean deploy"
      }
+  else if ("${stageName}" == "Deploy to Tomcat"}
+     {
+     
 }
